@@ -74,17 +74,6 @@ class MyFirstIRCProtocol(irc.IRCClient):
     def command_ping(self, rest):
         return 'Pong!'
 
-    def command_popwindow(self, rest):
-        d = defer.Deferred()
-        rest = rest.strip()
-        wsize, hsize, botwindowtitle = rest.split(' ')
-        botwindow = QtGui.QApplication(sys.argv)
-        w = QtGui.QWidget()
-        w.resize(int(wsize),int(hsize))
-        w.move(300,300)
-        w.setWindowTitle(str(botwindowtitle))
-        w.show()
-        sys.exit(botwindow.exec_())
 
     def command_saylater(self, rest):
         when, sep, msg = rest.partition(' ')
