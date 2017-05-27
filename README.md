@@ -1,4 +1,6 @@
 # irc2gitter
+
+[![Join the chat at https://gitter.im/irc2gitter/Lobby](https://badges.gitter.im/irc2gitter/Lobby.svg)](https://gitter.im/irc2gitter/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Bridge between arbitrary IRC channel and it's gitter equivalent. 
 
 Welcome to IRC2Gitter!
